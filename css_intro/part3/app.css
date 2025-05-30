@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(237, 241, 188);
+}
+
+button {
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+
+h1, h2 {
+    color: #1d3557
+}
+
+#signup {
+    background-color: #1d3557;
+    color: #f1faee;
+}
+
+.tag {
+    background-color: #d92222;
+    color: white;
+    font-size: 15px;
+}
+
+.post a {
+    color: orangered;
+}
+
+footer a {
+    color: rgb(11, 83, 83);
+}
+
+
+input[type="text"], input[type="password"] {
+    background-color: rgb(234, 199, 234);
+}
+
+button:hover {
+    background-color: red !important;
+    /* with !important, now the signup button will turn red on hover too!
+    despite a specificity different with #signup (id > element, typically) */
+    color: white;
+}
+
+button:active {
+    color:yellow;
+}
+
+.post:nth-of-type(2n) {
+    background-color: rgb(196, 203, 113)
+}
+
+h2::first-letter {
+    color: rgb(90, 123, 133);
+}
+
+p::selection {
+    background-color: #fcbc49;
+}
