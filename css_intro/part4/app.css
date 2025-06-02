@@ -1,0 +1,13 @@
+h1 {
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    display: inline;
+}
+
+span {
+    background-color: blueviolet;
+    border: 1px solid yellow;
+    display: block; /*if spans aren't made to be block here, the inline property will make
+    the blocks mix into the rest of the <p> text */
+    padding: 20px;
+}

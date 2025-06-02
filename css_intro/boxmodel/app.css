@@ -9,6 +9,8 @@ div {
     border-color: black;
     border-style: solid;
     box-sizing: border-box;
+    margin-left: 20px;
+    height: 210px;
 }
 
 #two {
@@ -16,17 +18,31 @@ div {
     border-color: #f5915c;
     border-style: dashed;
     border-width: 5px;
+    margin: 30px;
 }
 
 #three {
     background-color: rgb(216, 102, 121);
     border: black solid 4px;
     border-left: dotted;
-    border-radius: 10px;
+    border-radius: 30%;
+    margin-right: 20px;
+    margin-bottom: 15px;
 
 }
 
 h1 {
     background-color: green;
     width: 100px;
+}
+
+body {
+    margin: 0px;
+}
+button {
+    height: 50px;
+    width: 100px;
+    padding: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
